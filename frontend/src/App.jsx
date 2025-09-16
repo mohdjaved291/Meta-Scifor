@@ -13,6 +13,9 @@ const FIELD_OPTIONS = [
   { label: "Long Text (TextField)", value: "text" },
 ];
 
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000';
+
+
 function uid(prefix = "id") {
   return `${prefix}_${Math.random().toString(36).slice(2, 9)}`;
 }
