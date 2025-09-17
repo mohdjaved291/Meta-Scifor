@@ -150,7 +150,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
     # Add your production frontend URL after deployment
-    "https://your-frontend-name.onrender.com",  # Update this after frontend is deployed
+    "https://visual-api-designer-frontend.onrender.com",
 ]
 
 # For development only - remove in production
